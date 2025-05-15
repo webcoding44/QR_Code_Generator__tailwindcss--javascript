@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./output.css">
+</head>
+<body class="m-0 p-0 border-box flex justify-center items-center h-[100vh] bg-[#b953d1]">
+
+    <div class="w-[350px] bg-[#fff] rounded-[10px] p-[30px] ">
+        <div class="">
+            <h1 class="font-sans font-bold text-2xl">QR Code Generator</h1>
+            <small class="font-sans ">Enter a text or web address to generate the queue</small>
+        </div>
+        <form class="my-2 space-y-1">
+            <input id="form-input" class="outline-0 rounded-[5px] my-[10px] mx-0 p-[10px] w-72 text-[16px] border border-[#999]" type="text" placeholder="Enter a text or address">
+            <button type="button" id="btn" class="outline-0 border-none rounded-[5px] w-72 mx-0 p-[10px] text-[16px] bg-[#b953d1] text-[#fff]">QR Code Product</button>
+        </form>
+        <div id="qr-code" class=" none border border-[#999] rounded-[5px] text-center py-3 px-20 h-40 my-[30px]" style="display: none;">
+            <img id="qr-code-image" src="pngimg.com - qr_code_PNG33.png" alt="">
+        </div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
